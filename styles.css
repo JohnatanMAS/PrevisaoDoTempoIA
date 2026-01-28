@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://loremflickr.com/1600/900/nature,landscape");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.caixa-maior {
+    background: rgba(3, 0, 0, 0.8);
+    width: 450px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    gap: 10px;
+}
+
+.pesquisa {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+
+.input-cidade {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+    background-color: rgb(41, 38, 38);
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+}
+
+.botao {
+    padding: 10px;
+    border:none;
+    background-color: #0e0505fd;
+    border-radius: 80%;
+    margin-left: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s, background-color 0.2s;
+    gap: 8px;
+
+}
+
+.botao:hover {
+    background-color: #4e38385c;
+    transform: scale(1.1);
+}
+.img-botao {
+    width: 20px;
+    height: 20px;
+}
+
+.cidade-media{
+    margin-top: 30px;
+}
+.cidade{
+    font-size: 10px;
+
+}
+
+.cidade{
+    font-size: 30px;
+    font-weight: bold;
+    color: azure;
+    margin-top: 20px;
+
+}
+.temp{
+    font-size: 14px;
+    color: azure;
+}
+.icone{
+    width: 50px;
+    height: 50px;
+}
+
+.umidade{
+    font-size: 14px;
+    color: azure;
+
+}
+
+.botao-ia{
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    border:none;
+    background-color: #01449bfd;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    margin-right: 20px;
+}
+
+.botao-ia:hover {
+    background-color: #080101;
+    transform: scale(1.05);
+
+
+}
+
+.clima{
+    color: azure;
+}
+.texto-clima{
+    font-size: 14px;
+    color: azure;
+}
+
+.velocidade-vento{
+    font-size: 14px;
+    color: azure;
+
+}
+
+.resposta-ia{
+    margin-top: 20px;
+    font-size: 14px;
+    color: azure;
+    line-height: 1.5;
+}
